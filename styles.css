@@ -1,0 +1,75 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1620275765334-4ed948bb4502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bm90ZWJvb2slMjBwYXBlcnxlbnwwfHwwfHw%3D&w=1000&q=80'),
+    linear-gradient(0deg,rgb(128, 43, 226,0.7),rgba(128, 43, 226,0.4));
+    background-repeat: no-repeat;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    text-align: center;
+    color: white;
+    margin-top:5% ;
+    margin-bottom: 2%;
+}
+.form{
+    text-align:center;
+    width: 60%;
+    margin: auto;
+    background-color: rgba(0, 0, 0,0.8);
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+#survey-form{
+    padding: 25px 35px;
+}
+.group{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.group label{
+    display: block;
+    text-align: left;
+    padding: 10px;
+    padding-left: 0;
+
+}
+.group select{
+    width:100%;
+    padding: 10px;
+    padding-right: 0;
+    margin-bottom: 15px;
+}
+.group input{
+    width:96.5%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.group input[type="radio"]{
+    display: inline;
+}
+.group p{
+    float: left;
+    margin:0;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.options input{
+    width:5%;
+    text-align: left;
+}
+.group textarea{
+    width:100%;
+}
+#submit{
+    padding: 10px;
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    margin: 20px auto;
+}
